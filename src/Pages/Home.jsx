@@ -6,7 +6,7 @@ export default function Home() {
       <div className="grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <h1 className="text-3xl sm:text-5xl font-extrabold leading-tight">
-            Delivering happiness, right on time.
+            Delivering happiness, right on time. make you happy
           </h1>
           <p className="mt-4 text-slate-600 text-lg">
             Nice Delivery Service offers same-day pickups, next-day delivery, and real-time tracking for your parcels—business or personal.
