@@ -1,15 +1,16 @@
+import React from "react";
+import brand from "../assets/brand.jpg"; // ✅ move import here
+
 export default function Footer() {
-    return (
-      <footer className="border-t">
-        <div className="max-w-6xl mx-auto px-4 py-8 grid gap-4 sm:flex sm:items-center sm:justify-between">
-          <p className="text-sm text-slate-600">
-            © {new Date().getFullYear()} Nice Delivery Service. All rights reserved.
-          </p>
-          <div className="text-sm text-slate-500">
-            Fast • Reliable • Pan-India
-          </div>
-        </div>
-      </footer>
-    );
-  }
-  
+  return (
+    <footer className="border-t">
+      <div className="flex flex-col items-center justify-center min-h-[calc(100vh-8rem)]">
+        <img
+          src={brand}
+          alt="Landing"
+          className="w-auto max-w-[600px] h-auto object-contain rounded-2xl shadow-lg"
+        />
+      </div>
+    </footer>
+  );
+}
